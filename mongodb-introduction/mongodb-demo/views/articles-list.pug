@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Article Route List
+  body
+    a(href="/articles/new") Create new article
+    .article-list
+      each article in articleList
+        .article-list__item
+          h3.article-list__item-title #{article.title}
+          span.article-list__item-description #{article.description}
+          a(href=`articles/${article._id}`, style="display:block;").article-list__item-link Go to this article
+          a(href=`articles/edit/${article._id}`, style="display:block;").article-list__item-link Edit article

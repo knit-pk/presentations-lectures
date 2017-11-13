@@ -1,0 +1,26 @@
+html
+  head
+    title Create new Article
+  body
+  h1(style="width:500px;margin:0 auto;display:block;") Create a new article here ;)
+  br
+  form(action="/articles" method="post")
+    div
+      label(style="width:500px;margin:0 auto;display:block;") Title of article:
+      input(type="text" name="title" value="title of article" style="width:500px;margin:0 auto;display:block;")
+      br
+    div
+      label(style="width:500px;margin:0 auto;display:block;") Description:
+      input(type="text" name="description" value="test description" style="width:500px;margin:0 auto;display:block;")
+      br
+    div
+      label(style="width:500px;margin:0 auto;display:block;") Content:
+      textarea(name="content" style="width:500px;margin:0 auto;display:block;") Test content
+      br
+    div
+      label(style="width:500px;margin:0 auto;display:block;") Author:
+      input(type="text" name="username" value="test user" style="width:500px;margin:0 auto;display:block;")
+      input(type="text" name="signature" value="test user signature" style="width:500px;margin:0 auto;display:block;")
+      input(type="text" name="lastName" value="test user last name" style="width:500px;margin:0 auto;display:block;")
+    br
+    input(type="submit" value="Submit" style="width:500px;margin:0 auto;display:block;")

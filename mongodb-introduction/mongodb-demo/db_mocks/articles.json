@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Title 1",
+    "description": "Super description of an article here",
+    "content": "Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker",
+    "author": {
+      "username": "Anon",
+      "signature": "AnonDanon",
+      "lastName": "Anononowski"
+    },
+    "meta": {
+      "votes": 10
+    },
+    "lastModified": "2017-03-23T16:42:19Z",
+    "hidden": true
+  },
+  {
+    "title": "Title 2",
+    "description": "Super description of an article2 here",
+    "content": "To jest super artykuł Danonowskiego..",
+    "author": {
+      "username": "Danon",
+      "signature": "DanonAnon",
+      "lastName": "Danonowski"
+    },
+    "meta": {
+      "votes": 10
+    },
+    "lastModified": "2017-01-23T16:50:19Z",
+    "hidden": true
+  },
+  {
+    "title": "Title 3",
+    "description": "Super description of an article3 here",
+    "content": "Balonowski lubi pisać artykuły własnie napisał jeden..",
+    "author": {
+      "username": "Balon",
+      "signature": "BalonAnon",
+      "lastName": "Balonowski"
+    },
+    "meta": {
+      "votes": 4
+    },
+    "lastModified": "2010-01-23T16:50:19Z",
+    "hidden": true
+  },
+  {
+    "title": "Test Article",
+    "description": "To jest artykuł testowy, nie powinno mnie być widać",
+    "content": "Nie mogę się pojawić",
+    "author": {
+      "username": "Balon",
+      "signature": "BalonAnon",
+      "lastName": "Balonowski"
+    },
+    "meta": {
+      "votes": 4
+    },
+    "lastModified": "2010-01-23T16:50:19Z",
+    "hidden": true
+  }
+]
